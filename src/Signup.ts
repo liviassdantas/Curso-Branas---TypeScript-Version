@@ -2,8 +2,9 @@ import crypto from "crypto";
 import { validateCpf } from "./validateCpf";
 import AccountDAO from "./resources";
 import MailerGateway from "./MailerGateway";
+import UseCase from "./UseCase";
 
-export class Signup{
+export class Signup implements UseCase{
 	accountDAO: AccountDAO;
 	mailerGateway: MailerGateway;
 
