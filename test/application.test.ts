@@ -1,5 +1,5 @@
 import MailerGateway from "../src/MailerGateway";
-import AccountService, { AccountServiceProduction } from "../src/application";
+import AccountService, { AccountServiceProduction } from "../src/Signup";
 import { AccountDAODatabase, AccountDAOMemory } from "../src/resources";
 import sinon from "sinon";
 

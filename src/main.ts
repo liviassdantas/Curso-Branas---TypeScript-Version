@@ -1,4 +1,4 @@
-import AccountService, { AccountServiceProduction } from "./application";
+import AccountService, { AccountServiceProduction } from "./Signup";
 import API from "./driver";
 import { AccountDAODatabase } from "./resources";
 

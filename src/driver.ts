@@ -1,5 +1,5 @@
 import express from "express";
-import AccountService from "./application";
+import AccountService from "./Signup";
 
 export default class API {
 	app: any;
